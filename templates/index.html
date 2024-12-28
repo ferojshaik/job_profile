@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Feroj - Software Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">SF</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Shaik Feroj</h1>
+            <p class="gradient-text">Software Development Engineer</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+                <a href="#experience" class="btn btn-outline">View Experience</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="glass-card" data-aos="fade-up">
+                <h2 class="gradient-text">Professional Summary</h2>
+                <p>Experienced Associate Engineer with over 2.8 years at Harman Connected Services, 
+                specializing in Python automation and system integration for automotive infotainment systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding dark-section">
+        <div class="container">
+            <h2 class="gradient-text text-center mb-5">Work Experience</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="glass-card">
+                        <h3>Associate Engineer II</h3>
+                        <h4>Harman Connected Services</h4>
+                        <p class="date">2022 - Present</p>
+                        <ul>
+                            <li>Reduced integration time by 90% through Python automation</li>
+                            <li>Led map integration for Peugeot, Citroën, and Jeep</li>
+                            <li>Achieved 87% increased efficiency in deliveries</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="glass-card">
+                        <h3>Embedded Systems Intern</h3>
+                        <h4>Vector India</h4>
+                        <p class="date">2021 - 2022</p>
+                        <ul>
+                            <li>Supported staff in daily tasks</li>
+                            <li>Applied concepts in real work situations</li>
+                            <li>Collaborated in team problem-solving</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2 class="gradient-text text-center mb-5">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="zoom-in">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Embedded C</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in">
+                    <div class="skill-icon">🔧</div>
+                    <h3>C++</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in">
+                    <div class="skill-icon">🌿</div>
+                    <h3>Git</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in">
+                    <div class="skill-icon">🐧</div>
+                    <h3>Linux</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in">
+                    <div class="skill-icon">🔄</div>
+                    <h3>Jenkins</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding dark-section">
+        <div class="container">
+            <div class="glass-card contact-card" data-aos="fade-up">
+                <h2 class="gradient-text">Contact Information</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="icon">📧</span>
+                        <a href="mailto:shaikferoj327@gmail.com">shaikferoj327@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📱</span>
+                        <a href="tel:+917013317672">+91 7013317672</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
