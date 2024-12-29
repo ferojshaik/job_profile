@@ -25,7 +25,20 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content" data-aos="fade-up">
-            <h1>Shaik Feroj</h1>
+            <header class="header-section mb-5">
+                <div class="profile-container">
+                    <div class="profile-info">
+                        <h1 class="gradient-text">Shaik Feroj</h1>
+                        <p class="title">Associate Engineer II</p>
+                        <p class="subtitle">Software Development DevOps</p>
+                    </div>
+                    <div class="profile-image-container">
+                        <img src="{{ url_for('static', filename='images/linkedin_pic.jfif') }}" 
+                             alt="Shaik Feroj" 
+                             class="profile-image">
+                    </div>
+                </div>
+            </header>
             <p class="gradient-text">Software Development Engineer</p>
             <div class="hero-buttons">
                 <a href="#contact" class="btn btn-primary">Contact Me</a>
@@ -45,34 +58,46 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section-padding dark-section">
+    <!-- Updated Experience Section -->
+    <section id="experience" class="section-padding">
         <div class="container">
             <h2 class="gradient-text text-center mb-5">Work Experience</h2>
-            
-            <div class="timeline">
-                <div class="timeline-item" data-aos="fade-right">
-                    <div class="glass-card">
-                        <h3>Associate Engineer II</h3>
-                        <h4>Harman Connected Services</h4>
-                        <p class="date">2022 - Present</p>
+            <div class="experience-container">
+                <!-- Current Role -->
+                <div class="experience-card" data-aos="fade-up">
+                    <div class="exp-header">
+                        <div class="exp-icon">💼</div>
+                        <div class="exp-title">
+                            <h3>Associate Engineer II</h3>
+                            <h4>Harman Connected Services</h4>
+                            <p class="exp-date">2022 - Present</p>
+                        </div>
+                    </div>
+                    <div class="exp-content">
                         <ul>
-                            <li>Reduced integration time by 90% through Python automation</li>
-                            <li>Led map integration for Peugeot, Citroën, and Jeep</li>
-                            <li>Achieved 87% increased efficiency in deliveries</li>
+                            <li>Reduced integration time by 90% through Python automation scripts</li>
+                            <li>Led map integration projects for Peugeot, Citroën, and Jeep</li>
+                            <li>Achieved 87% increased efficiency in quarterly deliveries for Stellantis</li>
+                            <li>Reduced deployment time by 50% for new infotainment features</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="timeline-item" data-aos="fade-left">
-                    <div class="glass-card">
-                        <h3>Embedded Systems Intern</h3>
-                        <h4>Vector India</h4>
-                        <p class="date">2021 - 2022</p>
+                <!-- Previous Role -->
+                <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="exp-header">
+                        <div class="exp-icon">🎓</div>
+                        <div class="exp-title">
+                            <h3>Internship in Embedded Systems</h3>
+                            <h4>Vector India</h4>
+                            <p class="exp-date">2021 - 2022</p>
+                        </div>
+                    </div>
+                    <div class="exp-content">
                         <ul>
-                            <li>Supported staff in daily tasks</li>
-                            <li>Applied concepts in real work situations</li>
-                            <li>Collaborated in team problem-solving</li>
+                            <li>Supported staff members in daily tasks</li>
+                            <li>Applied learned concepts in real work situations</li>
+                            <li>Collaborated with teams for problem-solving</li>
                         </ul>
                     </div>
                 </div>
@@ -108,6 +133,42 @@
                 <div class="skill-card" data-aos="zoom-in">
                     <div class="skill-icon">🔄</div>
                     <h3>Jenkins</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="section-padding">
+        <div class="container">
+            <h2 class="gradient-text text-center mb-5">Tools & Technologies</h2>
+            <div class="tools-container">
+                <div class="tools-category">
+                    <h3>AI and Machine Learning Tools</h3>
+                    <div class="tools-grid">
+                        <div class="tool-card" data-aos="fade-up">
+                            <div class="tool-icon">🤖</div>
+                            <h4>ChatGPT</h4>
+                        </div>
+                        <div class="tool-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="tool-icon">⬛</div>
+                            <h4>Blackbox</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tools-category">
+                    <h3>Productivity and Collaboration</h3>
+                    <div class="tools-grid">
+                        <div class="tool-card" data-aos="fade-up">
+                            <div class="tool-icon">❤️</div>
+                            <h4>Loveable</h4>
+                        </div>
+                        <div class="tool-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="tool-icon">📝</div>
+                            <h4>Cursor</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
