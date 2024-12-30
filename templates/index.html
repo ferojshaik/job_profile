@@ -10,14 +10,12 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar">
         <div class="container">
-            <a class="navbar-brand" href="#">SF</a>
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#experience">Experience</a>
                 <a href="#skills">Skills</a>
-                <a href="#contact">Contact</a>
             </div>
         </div>
     </nav>
@@ -31,6 +29,10 @@
                         <h1 class="gradient-text">Shaik Feroj</h1>
                         <p class="title">Associate Engineer II</p>
                         <p class="subtitle">Software Development DevOps</p>
+                        <div class="cta-buttons">
+                            <a href="#experience" class="btn btn-primary">Experience</a>
+                            <a href="#contact" class="btn btn-outline">Contact Me</a>
+                        </div>
                     </div>
                     <div class="profile-image-container">
                         <img src="{{ url_for('static', filename='images/linkedin_pic.jfif') }}" 
@@ -40,10 +42,6 @@
                 </div>
             </header>
             <p class="gradient-text">Software Development Engineer</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Contact Me</a>
-                <a href="#experience" class="btn btn-outline">View Experience</a>
-            </div>
         </div>
     </section>
 
